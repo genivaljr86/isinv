@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^fale-conosco/?$ fale-conosco.php
+RewriteRule ^aprendizagem/?$ aprendizagem.php
+RewriteRule ^aprendizagem/([a-z0-9-]*)\/?$ aprendizagem.php?pg=$1
+RewriteRule ^analise/?$ analise.php
+RewriteRule ^analise/([a-z0-9-]*)\/?$ analise.php?pg=$1
+RewriteRule ^investimentos/?$ investimentos.php
+RewriteRule ^investimentos/([a-z0-9-]*)\/?$ investimentos.php?pg=$1
+RewriteRule ^quem-somos\/?$ quem-somos.php
+RewriteRule ^quem-somos\/?([a-z0-9-]*)\/?$ quem-somos.php?pg=$1
+</IfModule>

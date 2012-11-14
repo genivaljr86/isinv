@@ -7,9 +7,10 @@
 
 <body>
 <?php
+include("core.php");
 
       $nome =$_POST['nome'];
-	  $tel=$_POST['tel'];
+	  $cidade=$_POST['cidade'];
       $email=$_POST['email'];
 	  $mens=$_POST['mens'];
 
@@ -32,15 +33,15 @@
        $mail->Username = 'noreplay.talentodesign@gmail.com';
        $mail->Password = 'designer2802';
        $mail->SetFrom('noreply.talentodesign@gmail.com', 'Contato via Site');
-       $mail->AddAddress('genivaljunior86@gmail.com', 'Contato Bellos Modeladores');
+       $mail->AddAddress($core_email, 'Contato'.$core_nome);
        $mail->Subject = 'Mensagem Via Contato do Site';
 
        $body = "
 <meta charset='UTF-8'>
-           <strong>Nome    : </strong>{$nome} <br />
-            <strong>E-mail  : </strong>{$email} <br />
-			<strong>Telefone  : </strong>{$tel} <br />
-            <strong>Mensagem : </strong>{$mens}";
+           <strong>Nome      : </strong>{$nome} <br />
+           <strong>E-mail    : </strong>{$email} <br />
+		   <strong>Cidade    : </strong>{$cidade} <br />
+           <strong>Mensagem  : </strong>{$mens}";
 
 
        $mail->MsgHTML($body);

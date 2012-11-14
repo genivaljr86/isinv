@@ -1,16 +1,19 @@
 <?php
+// ==================================== DADOS FIXOS DA TALENTO ==================================== 
+$core_t_url="http://talentodesign.com.br/";
+
 // ==================================== DADOS INICIAIS DO SITE ==================================== 
 
 //Nome do Site
-$core_nome     = "";
+$core_nome     = "IS Investimentos";
 //Descrição do Site
-$core_desc     ="";
+$core_desc     ="A IS investimentos é um portal de educação financeira e investimentos.";
 //Palavras-Chaves sobre o site, use virgulas para separa-las
-$core_keywords =""; 
+$core_keywords ="Portal,IS, Investimentos, Finanças"; 
 //Pasta do projeto
-$core_pasta    ="";
+$core_pasta    ="isinv";
 //E-mail para recebimento das mensagens via site
-$core_email    =""; 
+$core_email    ="contato@isinvestimentos.com.br"; 
 
 // ========================================== FUNÇÕES ==============================================
 if($core_nome == "" || $core_desc == "" || $core_keywords == "" || $core_pasta == "" || $core_email == ""){
@@ -81,5 +84,9 @@ class Paginacao{
 			else return true;
 		}
 	}
-
+// Importando Wordpress
+function wp_funcoes(){
+	define('WP_USE_THEMES', false);
+	require('./wordpress/wp-load.php');
+	}
 ?>

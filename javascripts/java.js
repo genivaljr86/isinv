@@ -27,10 +27,10 @@ $(document).ready(function(){
 	$("#cont_bt").click(function(){
 		var nome=$("#nome").val();
 		var email=$("#email").val();
-		var tel=$("#tel").val();
+		var cidade=$("#cidade").val();
 		var mens=$("#mens").val();
-		var dados="nome="+nome+"&email="+email+"&tel="+tel+"&mens="+mens;
-		if(nome =='' || email =='' || tel =='' || mens==''){
+		var dados="nome="+nome+"&email="+email+"&cidade="+cidade+"&mens="+mens;
+		if(nome =='' || email =='' || cidade =='' || mens==''){
 			$('#contato_vazio').modal("show");
 			}
 		else{
@@ -56,4 +56,20 @@ $(document).ready(function(){
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
 	
+	/* ------------ EFEITO SIDEBAR ---------------------*/
+	$(".nav ul li").not(".atual").hover(
+		function(){
+		$(this).stop().animate({'background-color':'#013061'},"slow");
+			},
+		function(){
+		$(this).stop().animate({'background-color':'#032648'},"slow");	
+			}
+	);
+	$('.texto').jScrollPane();	
+});
+$(window).load(function(){
+	
+/* ------------ SCROLL PROJETO ---------------------*/	
+
+			
 });

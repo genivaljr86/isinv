@@ -3,8 +3,11 @@
 /* End of import hide */
 /* GERAL */
 body{
+    background-color:#DDDBDC;
+    font-family: Verdana;
+    color:#052a4d;
     .centraliza{
-    	width:;
+    	width:1000px;
     	margin:0 auto;
     	}
     a, a:active, a:visited{
@@ -15,13 +18,260 @@ body{
     	color:inherit;
     	text-decoration:underline;
     	}
+    .separator{
+        clear:both;
+        }
     }
 /* HEADER */
 #header{
+    height:271px;
+    background:url(../images/bg_header.jpg) top center;
+    border-bottom:7px solid #adafb2;
+    #logo{
+        margin:40px 0 0 20px;
+        }
+    #agora{
+        margin-left:425px;
+        }
+    #menu{
+        margin-top: 41px;
+        width:983px;
+        height:36px;
+        background:url(../images/bg_menu_top.png) top no-repeat;
+        ul{
+            list-style:none;
+            margin-left:35px;
+            li{
+                float:left;
+                margin:10px 8px 0 0;
+                color:#042f57;
+                font-size:16px;
+                }
+            }
+        }
 	}
 /* FOOTER */
 #footer{
+    height:202px;
+    background:url(../images/bg_footer.jpg) center;
+    ul{
+        list-style:none;
+        width:890px;
+        li{
+            float:left;
+            margin:18px 8px 0 0;
+            color:#042f57;
+            }
+        }
+    #texto{
+        float:left;
+        margin:56px 0 0 28px;
+        font-size:12px;
+        color:white;
+        }
+    #redes{
+        float:left;
+        margin:70px 0 0 72px;
+        }
+    #talento{
+        float:right;
+        margin:68px 20px 0 0;
+        }
 	}
+/*SLIDER*/
+#slider_area{
+    background-color:#d2d0d0;
+    height:368px;
+    #sl{
+        width:900px;
+        padding-top:14px;
+        }
+    }
 /* CONTEUDO */
 #content{
+    background:url(../images/bg_content.jpg) center repeat-y;
+    .pg{
+        float:left;
+        margin:27px 0 27px 23px;
+        background-color:#c2c0c0;
+        width:945px;
+        }
+    .nav{
+        float:left;
+        width:277px;
+        position:relative;
+        #tit_nav{
+            height:32px;
+            padding-top:6px;
+            background-color:#adafb2;
+            text-align:center;
+            font-weight:bold;
+            color:#023d77;
+            font-size:12px;
+            span{
+                color:white;
+                text-transform:uppercase;
+                }
+            }
+        ul{
+            list-style:none;
+            background-color:#012445;
+            li{
+                background-color:#032648;
+                margin-bottom:2px;
+                &.atual{
+                    background-color:#013061;
+                    }
+                }
+            }
+        #sponsor{
+            margin:-3px 0;
+            }
+        #icon_s{
+            position:absolute;
+            bottom:0;
+            right:-22px;
+            z-index:2;
+            }
+        }
+    .conteudo{
+        float:left;
+        width:666px;
+        #title_c{
+            width:613px;
+            padding:8px 0 0 54px;
+            height:30px;
+            background-color:#023261;
+            }
+        .texto{
+            margin:20px;
+            width:630px;
+            font-size:14px;
+            p{
+                padding-bottom:10px;
+                }
+            }
+        }
+    
+    #home{
+        position:relative;
+        height:428px;
+        font-size:15px;
+        #calendario{
+            position:absolute;
+            top:14px;
+            left:40px;
+            width:217px;
+            height:263px;
+            background:url(../images/bg_calendario.png) no-repeat top left;
+            ul{
+                list-style:none;
+                padding:95px  9px 5px 9px;
+                li{
+                    margin-bottom: 5px;
+                    }
+                }
+            center{
+                color:white;
+                font-weight:bold;
+                }
+            }
+        #abracont{
+            position:absolute;
+            top:287px;
+            left:40px;
+            }
+        #noticias{
+            position:absolute;
+            top:17px;
+            left:273px;
+            width:440px;
+            height:191px;
+            background:url(../images/bg_noticias.png) no-repeat top left;
+            font-size:15px;
+            ul{
+                list-style:none;
+                padding:44px 10px 5px 10px;
+                li{
+                    padding: 10px 0px;
+                    border-bottom:1px solid #052a4d;
+                    a{
+                        font-weight:bold;
+                        }
+                    }
+                }
+            }
+        #chat{
+            position:absolute;
+            top:217px;
+            left:280px;
+            }
+        #p_title{
+            position:absolute;
+            top:251px;
+            left:510px;
+            }
+        #parceiros{
+            position:absolute;
+            top:287px;
+            left:497px;
+            width:452px;
+            height:121px;
+            background:url(../images/bg_parceiros.png) no-repeat top left;
+            }
+        }
+    #falecon{
+        #title{
+            margin-top:6px;
+            width:100%;
+            background-color:#023261;
+            img{
+                padding:10px 35px;
+                }
+            }
+        #conteudo{
+            padding:46px 0 0 51px;
+            form{
+                margin-top:20px;
+                width:394px;
+                height:598px;
+                background:url(../images/falecon/bg_form.jpg) top left no-repeat;
+                input[type=text]{
+                    padding:0 5px;
+                    width:383px;
+                    height:33px;
+                    border:none;
+                    background:none;
+                    outline:none;
+                    }
+                textarea{
+                    margin-top:55px;
+                    padding:5px 5px;
+                    width:383px;
+                    border:none;
+                    background:none;
+                    outline:none;                    
+                    }
+                #nome{
+                    margin-top:36px;
+                    }
+                #email{
+                    margin-top:60px;
+                    }
+                #cidade{
+                    margin-top:58px;
+                    }
+                }
+            }
+        }
+    #analise{
+        #icon_s{
+            right:-69px;
+            }
+        }
+    #quems{
+        .texto{
+            height: 563px;
+            }
+        }
 	}
