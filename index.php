@@ -21,15 +21,13 @@ wp_funcoes();
     	<div id="home" class="centraliza">
         	<div id="calendario">
             	<ul>
+                <?php query_posts('posts_per_page=3post_type=pronamic_event'); ?>
+                <?php while (have_posts()): the_post(); ?>
             		<li>
-                    	<a href=""><strong>12/11</strong> - Palestra sobre indepedencia financeira.</a>
+                    	<a href=""><strong><?php echo get_the_date('d/m'); ?></strong> - <?php the_title(); ?></a>
                     </li>
-            		<li>
-                    	<a href=""><strong>09/12</strong> - Workshop sobre economia no lar.</a>
-                    </li>
-            		<li>
-                    	<a href=""><strong>20/12</strong> Como economizar nas compras de natal.</a>
-                    </li>
+                <?php endwhile; ?>
+                <?php wp_reset_query();?>
             	</ul>
                 <center>&gt;&gt; <a href="">ver todos</a></center>
             </div>

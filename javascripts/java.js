@@ -67,9 +67,3 @@ $(document).ready(function(){
 	);
 	$('.texto').jScrollPane();	
 });
-$(window).load(function(){
-	
-/* ------------ SCROLL PROJETO ---------------------*/	
-
-			
-});

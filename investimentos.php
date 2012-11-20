@@ -47,7 +47,7 @@ $link_title=get_servidor()."images/investimentos/".$pg2802."/title.png";
     
     <div id="content">
     	<div class="centraliza">
-        	<div id="analise" class="pg">
+        	<div id="invest" class="pg">
             	<div class="nav">
                 	<div id="tit_nav">
                     	HOME :: INVESTIMENTOS :: <br>

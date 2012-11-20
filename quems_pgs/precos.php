@@ -7,7 +7,7 @@ Nos casos de indisponibilidade do Home Broker por problemas técnicos, nossas Me
 <strong>Ordens pela Mesa de Operações (corretagem variável):</strong><br>
 A corretagem nas ordens realizadas pela Mesa de Operações, por telefone, será de 0,5% sobre o valor financeiro envolvido mais uma taxa fixa de R$ 25,21 (a taxa fixa será cobrada somente na primeira operação do dia, por tipo de mercado: ações, opções, etc.), respeitando o valor mínimo de R$ 40,00 sobre o total do dia.<br>
 Nos casos de operações não adequadas às regras de risco da Ágora, caso seja necessário uma intervenção compulsória, será cobrada a corretagem padrão da Mesa de Operações.<br>
-Fonte: <a href="https://www.agorainvest.com.br/vantagens-agora/valores-para-operar.asp" target="_blank">Ágora</a>
+<strong>Fonte:</strong> <a href="https://www.agorainvest.com.br/vantagens-agora/valores-para-operar.asp" target="_blank">Ágora</a>
 
 </p> 
 <p>
@@ -20,21 +20,21 @@ A corretagem nas ordens realizadas pela Mesa de Operações, por telefone, será
 No dia de vencimento das opções, a corretagem será cobrada da seguinte forma:<br>
 Cliente que exercer - taxa de 0,5% sobre o valor financeiro mais taxa fixa de R$ 25,21, respeitando o valor mínimo de R$40,00 sobre o total do dia.<br>
 Cliente que for exercido - taxa de R$ 20,00 por cada série da opção (mês e preço), exceto quando exercido sobre Termo. Nesse caso, será aplicada a taxa de 0,5% sobre o valor financeiro mais taxa fixa de R$ 25,21, respeitando o valor mínimo de R$40,00 sobre o total do dia.<br>
-Fonte: <a href="https://www.agorainvest.com.br/vantagens-agora/valores-para-operar.asp" target="_blank">Ágora</a>
+<strong>Fonte:</strong> <a href="https://www.agorainvest.com.br/vantagens-agora/valores-para-operar.asp" target="_blank">Ágora</a>
 
 </p>
 <p> 
 <strong>Taxa de registro de Opções</strong><br>
 A taxa é cobrada pela Bovespa sobre o volume financeiro total operado no mercado de opções. Nas operações normais a taxa é de 0,070% e nas de Day Trade, 0,014%. Tanto as operações de opções quanto suas respectivas taxas são liquidadas em D1.
  <br>
-Fonte: <a href="https://www.agorainvest.com.br/vantagens-agora/valores-para-operar.asp" target="_blank">Ágora</a>
+<strong>Fonte:</strong> <a href="https://www.agorainvest.com.br/vantagens-agora/valores-para-operar.asp" target="_blank">Ágora</a>
 </p> 
 <p>
 <strong>TAXA DE CUSTODIA</strong><br>
 A taxa mensal de custódia para contas com posição é de R$ 6,90, independente de se tratar de posição em Conta Depósito, Conta Investimento ou ambas.<br>
 Se o investidor fizer pelo menos uma operação de compra ou venda no mês estará isento da taxa do mês em questão.
  <br>
-Fonte: <a href="https://www.agorainvest.com.br/vantagens-agora/valores-para-operar.asp" target="_blank">Ágora</a>
+<strong>Fonte:</strong> <a href="https://www.agorainvest.com.br/vantagens-agora/valores-para-operar.asp" target="_blank">Ágora</a>
 </p>
 <p> 
 <strong>TAXA DE INATIVIDADE</strong><br>
