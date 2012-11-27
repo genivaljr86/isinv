@@ -12,13 +12,12 @@ if($pg2802==""){
 //Listando as Páginas
 $paginas= array();
 $paginas["acoes-opcoes"]     ="Ações e Opções";
-$paginas["mercado-termo"]    ="Mercado e Termo";
-$paginas["contratos-futuros"]="Contratos Futuros";
 $paginas["tesouro-direto"]   ="Tesouro Direto";
-$paginas["op-estruturadas"]  ="Operações Estruturadas";
+$paginas["fundos-invest"]    ="Fundos de Investimento";
+$paginas["fundos-imobil"]    ="Fundos Imobiliários";
 $paginas["fundos-indice"]    ="Fundos de Índice";
-$paginas["ofertas-publicas"] ="Ofertas Públicas";
-$paginas["riscos"]           ="Riscos";
+$paginas["previdencia-priv"] ="Previdência Privada";
+$paginas["bmf"] 			 ="BM&F";
 
 //Redirecionando urls inexistentes
 $indice=get_servidor()."investimentos/";
@@ -58,25 +57,22 @@ $link_title=get_servidor()."images/investimentos/".$pg2802."/title.png";
                         	<a href="acoes-opcoes"><img src="<?php servidor(); ?>images/investimentos/menu/ac_op.png" alt=""></a>
                         </li>
                     	<li <?php echo $pg_atual[1]; ?>>
-                        	<a href="mercado-termo"><img src="<?php servidor(); ?>images/investimentos/menu/merc_term.png" alt=""></a>
-                        </li>
-                    	<li <?php echo $pg_atual[2]; ?>>
-                        	<a href="contratos-futuros"><img src="<?php servidor(); ?>images/investimentos/menu/cont_fut.png" alt=""></a>
-                        </li>
-                    	<li <?php echo $pg_atual[3]; ?>>
                         	<a href="tesouro-direto"><img src="<?php servidor(); ?>images/investimentos/menu/tes_dir.png" alt=""></a>
                         </li>
-                    	<li <?php echo $pg_atual[4]; ?>>
-                        	<a href="op-estruturadas"><img src="<?php servidor(); ?>images/investimentos/menu/ope_est.png" alt=""></a>
+                    	<li <?php echo $pg_atual[2]; ?>>
+                        	<a href="fundos-invest"><img src="<?php servidor(); ?>images/investimentos/menu/fundos-invest.png" alt=""></a>
                         </li>
-                    	<li <?php echo $pg_atual[5]; ?>>
+                    	<li <?php echo $pg_atual[3]; ?>>
+                        	<a href="fundos-imobil"><img src="<?php servidor(); ?>images/investimentos/menu/fundos-imobil.png" alt=""></a>
+                        </li>
+                    	<li <?php echo $pg_atual[4]; ?>>
                         	<a href="fundos-indice"><img src="<?php servidor(); ?>images/investimentos/menu/fun_ind.png" alt=""></a>
                         </li>
-                    	<li <?php echo $pg_atual[6]; ?>>
-                        	<a href="ofertas-publicas"><img src="<?php servidor(); ?>images/investimentos/menu/ofe_pub.png" alt=""></a>
+                    	<li <?php echo $pg_atual[5]; ?>>
+                        	<a href="previdencia-priv"><img src="<?php servidor(); ?>images/investimentos/menu/previdencia_priv.png" alt=""></a>
                         </li>
-                    	<li <?php echo $pg_atual[7]; ?>>
-                        	<a href="riscos"><img src="<?php servidor(); ?>images/investimentos/menu/riscos.png" alt=""></a>
+                    	<li <?php echo $pg_atual[6]; ?>>
+                        	<a href="bmf"><img src="<?php servidor(); ?>images/investimentos/menu/bmf.png" alt=""></a>
                         </li>
                     </ul>
                     <a href=""><img id="sponsor" src="<?php servidor(); ?>images/investimentos/perfil.jpg" alt=""></a>

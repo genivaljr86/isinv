@@ -65,5 +65,5 @@ $(document).ready(function(){
 		$(this).stop().animate({'background-color':'#032648'},"slow");	
 			}
 	);
-	$('.texto').jScrollPane();	
+	$('.texto, #scroll').jScrollPane();	
 });

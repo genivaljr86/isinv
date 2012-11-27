@@ -13,10 +13,10 @@ if($pg2802==""){
 $paginas= array();
 $paginas["a-empresa"]        ="A Empresa";
 $paginas["precos"]           ="Precos";
-$paginas["vantagens"]        ="Vantagens";
 $paginas["imp-mercado"]      ="A Importância do Mercado";
-$paginas["seguranca"]        ="Segurança";
-$paginas["regras-parametros"]="Fundos de Índice";
+$paginas["acoes"]          	 ="Ações como formação de...";
+$paginas["diversifique"]     ="Diversifique os investimentos";
+$paginas["fotos"]            ="Fotos";
 
 //Redirecionando urls inexistentes
 $indice=get_servidor()."quem-somos/";
@@ -59,16 +59,16 @@ $link_title=get_servidor()."images/quem-somos/".$pg2802."/title.png";
                         	<a href="precos"><img src="<?php servidor(); ?>images/quem-somos/menu/precos.png" alt=""></a>
                         </li>
                     	<li <?php echo $pg_atual[2]; ?>>
-                        	<a href="vantagens"><img src="<?php servidor(); ?>images/quem-somos/menu/vantagens.png" alt=""></a>
-                        </li>
-                    	<li <?php echo $pg_atual[3]; ?>>
                         	<a href="imp-mercado"><img src="<?php servidor(); ?>images/quem-somos/menu/imf.png" alt=""></a>
                         </li>
+                    	<li <?php echo $pg_atual[3]; ?>>
+                        	<a href="acoes"><img src="<?php servidor(); ?>images/quem-somos/menu/acoes.png" alt=""></a>
+                        </li>
                     	<li <?php echo $pg_atual[4]; ?>>
-                        	<a href="seguranca"><img src="<?php servidor(); ?>images/quem-somos/menu/seguranca.png" alt=""></a>
+                        	<a href="diversifique"><img src="<?php servidor(); ?>images/quem-somos/menu/diversifique.png" alt=""></a>
                         </li>
                     	<li <?php echo $pg_atual[5]; ?>>
-                        	<a href="regras-parametros"><img src="<?php servidor(); ?>images/quem-somos/menu/regpar.png" alt=""></a>
+                        	<a href="fotos"><img src="<?php servidor(); ?>images/quem-somos/menu/fotos.png" alt=""></a>
                         </li>
                     </ul>
                     <a href=""><img id="sponsor" src="<?php servidor(); ?>images/investimentos/perfil.jpg" alt=""></a>

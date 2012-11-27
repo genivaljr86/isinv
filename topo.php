@@ -9,9 +9,9 @@
             		<li><a href="<?php servidor(); ?>quem-somos/"><img src="<?php servidor(); ?>images/menu_top/2_off.png" alt="" class="botao"></a></li>
             		<li>|</li>
             		<li><a href="<?php servidor(); ?>investimentos/"><img src="<?php servidor(); ?>images/menu_top/3_off.png" alt="" class="botao"></a></li>
-            		<li>|</li>
+            		<li>|</li><!--
             		<li><a href="<?php servidor(); ?>aprendizagem/"><img src="<?php servidor(); ?>images/menu_top/4_off.png" alt="" class="botao"></a></li>
-            		<li>|</li>
+            		<li>|</li>-->
             		<li><a href="<?php servidor(); ?>educacional/"><img src="<?php servidor(); ?>images/menu_top/5_off.png" alt="" class="botao"></a></li>
             		<li>|</li>
             		<li><a href="https://www.agorainvest.com.br/bemvindo/abraconta/cadastro.asp?cliente=M&Cd_Assessor=427" target="_blank"><img src="<?php servidor(); ?>images/menu_top/6_off.png" alt="" class="botao"></a></li>

@@ -5,8 +5,8 @@
     			<li>|</li>
     			<li><a href="<?php servidor(); ?>investimentos/"><img src="<?php servidor(); ?>images/menu_bottom/2_off.png" alt="" class="botao"></a></li>
     			<li>|</li>
-    			<li><a href="<?php servidor(); ?>aprendizagem/"><img src="<?php servidor(); ?>images/menu_bottom/3_off.png" alt="" class="botao"></a></li>
-    			<li>|</li>
+    			<!--<li><a href="<?php servidor(); ?>aprendizagem/"><img src="<?php servidor(); ?>images/menu_bottom/3_off.png" alt="" class="botao"></a></li>
+    			<li>|</li>-->
     			<li><a href="<?php servidor(); ?>analise/"><img src="<?php servidor(); ?>images/menu_bottom/8_off.png" alt="" class="botao"></a></li>
     			<li>|</li>
     			<li><a href="https://www.agorainvest.com.br/bemvindo/abraconta/cadastro.asp?cliente=M&Cd_Assessor=427" target="_blank"><img src="<?php servidor(); ?>images/menu_bottom/5_off.png" alt="" class="botao"></a></li>

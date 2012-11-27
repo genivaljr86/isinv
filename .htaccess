@@ -11,4 +11,7 @@ RewriteRule ^investimentos/?$ investimentos.php
 RewriteRule ^investimentos/([a-z0-9-]*)\/?$ investimentos.php?pg=$1
 RewriteRule ^quem-somos\/?$ quem-somos.php
 RewriteRule ^quem-somos\/?([a-z0-9-]*)\/?$ quem-somos.php?pg=$1
+RewriteRule ^noticias\/?$ noticias.php
+RewriteRule ^noticias/pg/([0-9-]*)\/?$ noticias.php?pg=$1
+RewriteRule ^noticias/p/([a-z0-9-]*)\/?$ noticias.php?p=$1
 </IfModule>

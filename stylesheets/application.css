@@ -45,7 +45,7 @@ body .separator {
 }
 #header #menu ul {
   list-style: none;
-  margin-left: 35px;
+  margin-left: 116px;
 }
 #header #menu ul li {
   float: left;
@@ -60,7 +60,7 @@ body .separator {
 }
 #footer ul {
   list-style: none;
-  width: 890px;
+  width: 705px;
 }
 #footer ul li {
   float: left;
@@ -223,6 +223,11 @@ body .separator {
   height: 121px;
   background: url(../images/bg_parceiros.png) no-repeat top left;
 }
+#content #home #cotacao {
+  position: absolute;
+  top: 17px;
+  left: 721px;
+}
 #content #falecon #title {
   margin-top: 6px;
   width: 100%;
@@ -276,4 +281,68 @@ body .separator {
 }
 #content #analise .texto {
   height: 660px;
+}
+#content #noticias #title {
+  margin-top: 6px;
+  width: 100%;
+  background-color: #023261;
+}
+#content #noticias #title img {
+  padding: 10px 35px;
+}
+#content #noticias #conteudo {
+  padding: 26px 0 0 17px;
+  color: #023261;
+}
+#content #noticias #conteudo ul#indice {
+  float: left;
+  padding-bottom: 10px;
+  list-style: none;
+  width: 258px;
+}
+#content #noticias #conteudo ul#indice li {
+  padding: 10px;
+  border-bottom: 1px solid #023261;
+}
+#content #noticias #conteudo ul#indice li span {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#content #noticias #conteudo ul#indice li:hover {
+  color: #C2C0C0;
+  background-color: #023261;
+}
+#content #noticias #conteudo #noticia {
+  float: left;
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+#content #noticias #conteudo #noticia #data {
+  padding: 22px 44px;
+  width: 136px;
+  background-color: #023261;
+  color: white;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+#content #noticias #conteudo #noticia #texto {
+  height: 580px;
+  width: 596px;
+  padding: 40px 0 20px 30px;
+  background-color: #A0A0A0;
+}
+#content #noticias #conteudo #noticia #texto img {
+  max-width: 100%;
+}
+#content #noticias #conteudo #noticia #texto #scroll {
+  width: 582px;
+  height: 550px;
+  overflow: hidden;
+}
+#content #noticias #conteudo #noticia #texto #titulo {
+  font-weight: bold;
+  font-size: 18px;
+}
+#content #noticias #conteudo #noticia #texto p {
+  margin-bottom: 20px;
 }
