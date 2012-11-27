@@ -44,7 +44,7 @@ wp_funcoes();
                     </li>
              <?php endwhile; ?>	
             	</ul>
-                <div style="text-align:right">&gt;&gt; <a href="<?php servidor(); ?>/noticias/">ver todos</a></div>
+                <div style="text-align:right">&gt;&gt; <a href="<?php servidor(); ?>noticias/">ver todos</a></div>
             </div>
             <a href=""><img src="images/bg_chat.png" alt="" id="chat"></a>
             <img src="images/p_title.png" alt="" id="p_title">

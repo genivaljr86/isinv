@@ -39,7 +39,7 @@ $end_prox = $serv."noticias/pg/".$paginacao->proxpg();  //Criando o endereco de 
                 <div id="conteudo">
                 	<ul id="indice">
                     <?php  
-						query_posts( array( 'posts_per_page'=> 2, 'paged' => $pg ) );
+						query_posts( array( 'posts_per_page'=> 6, 'paged' => $pg ) );
 						while (have_posts()): the_post();
 					?>
                     	<a href="<?php servidor(); ?>noticias/p/<?php echo $post->post_name; ?>">
@@ -52,6 +52,16 @@ $end_prox = $serv."noticias/pg/".$paginacao->proxpg();  //Criando o endereco de 
 	  					 endwhile; 
 	  					 wp_reset_query(); 
 					 ?>
+                     <li class="pag">
+                     	<?php if($paginacao->has_anterior()){ ?>
+							<a href="<?php echo $end_ant; ?>">Anterior</a>
+						<?php } ?>
+                        
+                     	<?php if($paginacao->has_proximo()){ ?>
+							<a href="<?php echo $end_prox; ?>">Próximo</a>
+						<?php } ?>
+                     	
+                     </li>
                     </ul>
                     <div id="noticia">
                     <?php if($p!=""){ ?>
