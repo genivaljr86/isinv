@@ -16,7 +16,7 @@ if (0 < $numposts) $numposts = number_format($numposts);
 
 $paginacao = new Paginacao;          //Criando Objeto para paginação, em seguida instanciamos...
 $paginacao->set_numposts($numposts); //... o número total de posts.
-$paginacao->set_porpg(2);            //... o número de posts por página.
+$paginacao->set_porpg(6);            //... o número de posts por página.
 $paginacao->set_pg_atual($pg);   //... a pagina atual.
 
 $serv= get_servidor(); //Pegando o endereço do servidor
