@@ -24,12 +24,12 @@ wp_funcoes();
                 <?php query_posts('posts_per_page=3&post_type=pronamic_event'); ?>
                 <?php while (have_posts()): the_post(); ?>
             		<li>
-                    	<a href=""><strong><?php echo get_the_date('d/m'); ?></strong> - <?php the_title(); ?></a>
+                    	<a href="<?php servidor(); ?>calendario/p/<?php echo $post->post_name; ?>"><strong><?php echo pronamic_get_the_start_date('d/m');?></strong> - <?php the_title(); ?></a>
                     </li>
                 <?php endwhile; ?>
                 <?php wp_reset_query();?>
             	</ul>
-                <center>&gt;&gt; <a href="">ver todos</a></center>
+                <center>&gt;&gt; <a href="<?php servidor(); ?>calendario/">ver todos</a></center>
             </div>
             <a href=""><img src="<?php servidor(); ?>images/bg_abracont.png" alt="" id="abracont"></a>
             <div id="noticias">
