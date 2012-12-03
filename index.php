@@ -31,7 +31,7 @@ wp_funcoes();
             	</ul>
                 <center>&gt;&gt; <a href="<?php servidor(); ?>calendario/">ver todos</a></center>
             </div>
-            <a href=""><img src="<?php servidor(); ?>images/bg_abracont.png" alt="" id="abracont"></a>
+            <a href=href="https://www.agorainvest.com.br/bemvindo/abraconta/cadastro.asp?cliente=M&Cd_Assessor=427" target="_blank"><img src="<?php servidor(); ?>images/bg_abracont.png" alt="" id="abracont"></a>
             <div id="noticias">
             	<ul>
             <?php  
@@ -46,7 +46,11 @@ wp_funcoes();
             	</ul>
                 <div style="text-align:right">&gt;&gt; <a href="<?php servidor(); ?>noticias/">ver todos</a></div>
             </div>
-            <a href=""><img src="images/bg_chat.png" alt="" id="chat"></a>
+            <!--<a href=""><img src="images/bg_chat.png" alt="" id="chat"></a> -->
+            <div id="chat">
+            	<!-- LiveZilla Chat Button Link Code (ALWAYS PLACE IN BODY ELEMENT) --><div style="text-align:center;width:208px;"><a href="javascript:void(window.open('http://isinvestimentos.com.br/chat/chat.php','','width=590,height=610,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))"><img src="http://isinvestimentos.com.br/chat/image.php?id=04&amp;type=inlay" width="208" height="191" border="0" alt="LiveZilla Live Help"></a></div><!-- http://www.LiveZilla.net Chat Button Link Code --><!-- LiveZilla Tracking Code (ALWAYS PLACE IN BODY ELEMENT) --><div id="livezilla_tracking" style="display:none"></div><script type="text/javascript">
+var script = document.createElement("script");script.type="text/javascript";var src = "http://isinvestimentos.com.br/chat/server.php?request=track&output=jcrpt&nse="+Math.random();setTimeout("script.src=src;document.getElementById('livezilla_tracking').appendChild(script)",1);</script><noscript><img src="http://isinvestimentos.com.br/chat/server.php?request=track&amp;output=nojcrpt" width="0" height="0" style="visibility:hidden;" alt=""></noscript><!-- http://www.LiveZilla.net Tracking Code -->
+            </div>
             <img src="images/p_title.png" alt="" id="p_title">
             <div id="parceiros"></div>
             <div id="cotacao">

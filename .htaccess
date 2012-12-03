@@ -17,4 +17,5 @@ RewriteRule ^noticias/p/([a-z0-9-]*)\/?$ noticias.php?p=$1
 RewriteRule ^calendario\/?$ calendario.php
 RewriteRule ^calendario/pg/([0-9-]*)\/?$ calendario.php?pg=$1
 RewriteRule ^calendario/p/([a-z0-9-]*)\/?$ calendario.php?p=$1
+RewriteRule ^trabalhe-conosco\/?$ trabalhe-conosco.php
 </IfModule>

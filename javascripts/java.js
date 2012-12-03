@@ -24,7 +24,7 @@ $(document).ready(function(){
 		});
 	var some=function(){$('#contato_enviando').modal('hide')};
 	
-	$("#cont_bt").click(function(){
+	$("#falecon #cont_bt").click(function(){
 		var nome=$("#nome").val();
 		var email=$("#email").val();
 		var cidade=$("#cidade").val();
@@ -65,5 +65,25 @@ $(document).ready(function(){
 		$(this).stop().animate({'background-color':'#032648'},"slow");	
 			}
 	);
-	$('.texto, #scroll').jScrollPane();	
+	$('.texto, #scroll').jScrollPane();
+	
+	/* ------------ TRABALHE CONOSCO AJAX ---------------------*/
+	$(".anexo_bt").click(function(){
+		$("#anexo").trigger("click");
+		return false;
+		});
+	$("#anexo").change(function(){
+		var caminho=$("#anexo").val();
+		var arq = caminho.split('\\');
+		$("form #arq").val(arq[arq.length-1]);
+		});
+	$(".enviar_cur").click(function(){
+		var nome    = $("#nome").val();
+		var email   = $("#email").val();
+		if(nome == "" || email == "" || anexo == ""){
+			$('#curriculo_vazio').modal("show");
+			return false
+			}
+		});
+	
 });

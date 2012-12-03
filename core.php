@@ -13,7 +13,8 @@ $core_keywords ="Portal,IS, Investimentos, Finanças";
 //Pasta do projeto
 $core_pasta    ="isinv";
 //E-mail para recebimento das mensagens via site
-$core_email    ="contato@isinvestimentos.com.br"; 
+$core_email    ="contato@isinvestimentos.com.br";
+$core_email2   ="genival@talentodesign.com.br"; 
 
 // ========================================== FUNÇÕES ==============================================
 if($core_nome == "" || $core_desc == "" || $core_keywords == "" || $core_pasta == "" || $core_email == ""){
