@@ -75,7 +75,7 @@ $link_title=get_servidor()."images/investimentos/".$pg2802."/title.png";
                         	<a href="bmf"><img src="<?php servidor(); ?>images/investimentos/menu/bmf.png" alt=""></a>
                         </li>
                     </ul>
-                    <a href=""><img id="sponsor" src="<?php servidor(); ?>images/investimentos/perfil.jpg" alt=""></a>
+                    
                 </div>
                 <div class="conteudo">
                 	<div id="title_c">

@@ -42,6 +42,31 @@ $(document).ready(function(){
 				data: dados,
 				cache: false,
 				success: function(){
+					$("#contato_enviando p").html('<center><img src="images/email-send-icon.png" alt=""></center>').find('center').hide().fadeIn("slow");
+					$("#contato_enviando h3").html('Mensagem Enviada');
+					$("input:text, textarea").val("");
+					setTimeout(some,2000);
+				}
+				
+				});
+		}
+		return false;
+		});
+	$("#home #cad_bt").click(function(){
+		var email=$("#email").val();
+		var dados="&email="+email;
+		if(email ==''){
+			$('#contato_vazio').modal("show");
+			}
+		else{
+			$('#contato_enviando').modal({backdrop:"static"});
+			$('#contato_enviando').modal("show");
+			$.ajax({
+				type: "POST",
+				url: "mail_newslet.php",
+				data: dados,
+				cache: false,
+				success: function(){
 					$("#contato_enviando p").html('<center><img src="../images/email-send-icon.png" alt=""></center>').find('center').hide().fadeIn("slow");
 					$("#contato_enviando h3").html('Mensagem Enviada');
 					$("input:text, textarea").val("");
@@ -55,6 +80,10 @@ $(document).ready(function(){
 	
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
+
+	/*------------- COTAÇÃO --------------------------*/
+	$("#cotacao").load("yahoostock.php",function(){$('#mq').simplyScroll();})
+	
 	
 	/* ------------ EFEITO SIDEBAR ---------------------*/
 	$(".nav ul li").not(".atual").hover(

@@ -17,7 +17,7 @@
     		</ul>
             <div class="separator"></div>
         	<div id="texto">
-	            Copyright © <?php $data=date("Y"); echo $data; ?> ISI Investimentos <br>
+	            Copyright © <?php $data=date("Y"); echo $data; ?> IS Investimentos <br>
 				Todos os direitos reservados. <br>
 				Av. Mundurucus, 3100, Sala 1301/02 Ed. Metropolitan Tower <br>
 				Belém • Pará • Brasil <br>            

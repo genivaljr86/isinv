@@ -8,6 +8,10 @@ wp_funcoes();
     <div id="header">
     <?php include("topo.php"); ?>
     </div>
+    <div id="cotacao" class="centraliza">
+        <div class="centraliza" style="text-align:center">Carregando...</div>
+        <div class="separator"></div>
+    </div>
     <div id="slider_area">
     	<div id="sl" class="centraliza">
         	<div id="slider">
@@ -48,18 +52,30 @@ wp_funcoes();
             </div>
             <!--<a href=""><img src="images/bg_chat.png" alt="" id="chat"></a> -->
             <div id="chat">
-            	<!-- LiveZilla Chat Button Link Code (ALWAYS PLACE IN BODY ELEMENT) --><div style="text-align:center;width:208px;"><a href="javascript:void(window.open('http://isinvestimentos.com.br/chat/chat.php','','width=590,height=610,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))"><img src="http://isinvestimentos.com.br/chat/image.php?id=04&amp;type=inlay" width="208" height="191" border="0" alt="LiveZilla Live Help"></a></div><!-- http://www.LiveZilla.net Chat Button Link Code --><!-- LiveZilla Tracking Code (ALWAYS PLACE IN BODY ELEMENT) --><div id="livezilla_tracking" style="display:none"></div><script type="text/javascript">
+            	<!-- LiveZilla Chat Button Link Code (ALWAYS PLACE IN BODY ELEMENT) -->
+                <div style="text-align:center;width:208px;"><a href="javascript:void(window.open('http://isinvestimentos.com.br/chat/chat.php','','width=590,height=610,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))"><img src="http://isinvestimentos.com.br/chat/image.php?id=04&amp;type=inlay" width="208" height="191" border="0" alt="LiveZilla Live Help"></a></div><!-- http://www.LiveZilla.net Chat Button Link Code --><!-- LiveZilla Tracking Code (ALWAYS PLACE IN BODY ELEMENT) --><div id="livezilla_tracking" style="display:none"></div><script type="text/javascript">
 var script = document.createElement("script");script.type="text/javascript";var src = "http://isinvestimentos.com.br/chat/server.php?request=track&output=jcrpt&nse="+Math.random();setTimeout("script.src=src;document.getElementById('livezilla_tracking').appendChild(script)",1);</script><noscript><img src="http://isinvestimentos.com.br/chat/server.php?request=track&amp;output=nojcrpt" width="0" height="0" style="visibility:hidden;" alt=""></noscript><!-- http://www.LiveZilla.net Tracking Code -->
             </div>
             <img src="images/p_title.png" alt="" id="p_title">
             <div id="parceiros"></div>
             <div id="cotacao">
-            	<script src="//www.gmodules.com/ig/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/106578671605549411176/bovespa_gadget.xml&amp;up_lista_codigo=%5EBVSP%2BPETR3.SA%2BVALE3.SA&amp;synd=open&amp;w=215&amp;h=100&amp;&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+                <br><br>
+                <label for="">
+                    Gostaria de receber <br>
+                    informações no seu e-mail?
+                </label><br><br>
+                <label for="email">
+                    INSCREVA-SE
+                </label><br>
+                <input type="text" name="" id="email" placeholder="Digite seu email" ><br>
+                <input type="image" src="<?php servidor(); ?>images/cad_bt_on.png" alt="" id="cad_bt">
+
             </div>
         </div>
     </div>
     <div id="footer">
     <?php include("footer.php"); ?>
+    <?php include("contato_msg.php"); ?>
     </div>
   </body>
 </html>

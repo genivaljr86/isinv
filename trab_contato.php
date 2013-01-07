@@ -26,7 +26,7 @@
        $mail->Username = 'noreplay.talentodesign@gmail.com';
        $mail->Password = 'designer2802';
        $mail->SetFrom('noreply.talentodesign@gmail.com', 'Contato via Site');
-       $mail->AddAddress("genival@talentodesign.com.br", 'Contato IS Investimentos');
+       $mail->AddAddress("contato@isinvestimentos.com.br", 'Contato IS Investimentos');
        $mail->Subject = 'Formulario de Contato';
        
        $body = "
