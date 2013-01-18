@@ -45,7 +45,7 @@ body .separator {
 }
 #header #menu ul {
   list-style: none;
-  margin-left: 186px;
+  margin-left: 118px;
 }
 #header #menu ul li {
   float: left;
@@ -357,6 +357,13 @@ body .separator {
   width: 582px;
   height: 550px;
   overflow: hidden;
+}
+#content #noticias #conteudo #noticia #texto fieldset {
+  border: 1px solid #023261;
+  padding: 20px;
+}
+#content #noticias #conteudo #noticia #texto fieldset input[type=text] {
+  width: 300px;
 }
 #content #noticias #conteudo #noticia #texto #titulo {
   font-weight: bold;

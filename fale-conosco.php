@@ -20,6 +20,7 @@
 				  para enviar uma mensagem para nossa equipe especializada. <br>
                   <br>
                   Em buscar de uma <strong>oportunidade</strong>? <a href="<?php servidor(); ?>trabalhe-conosco">Clique aqui!</a>
+                    <img src=" <?php servidor(); ?>images/falecon/icon.jpg " alt="" style="float:right;margin:106px 24px 0 0px;">
                 	<form action="" method="post" enctype="multipart/form-data">
 	                    <input type="text" name="" id="nome"><br>
 	                    <input type="text" name="" id="email"><br>

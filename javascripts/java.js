@@ -17,6 +17,37 @@ $(document).ready(function(){
 		$(this).attr('src', hov2);
 		
 		});
+
+	/* ------------ CURSOS  AJAX ---------------------*/
+	$("#bt_cur").click(function(){
+		var curso=$("#curso").val();
+		var nome=$("#nome").val();
+		var email=$("#email").val();
+
+		var ur=$("#url").val();
+		var send=ur+"mail_curso.php"
+		var dados="nome="+nome+"&email="+email+"&curso="+curso;
+		if(nome =='' || email =='' || curso ==''){
+			$('#contato_vazio').modal("show");
+			}
+		else{
+			$('#contato_enviando').modal({backdrop:"static"});
+			$('#contato_enviando').modal("show");
+			$.ajax({
+				type: "POST",
+				url: send,
+				data: dados,
+				cache: false,
+				success: function(){
+					$("#contato_enviando p").html('<center><img src="'+ur+'images/email-send-icon.png" alt=""></center>').find('center').hide().fadeIn("slow");
+					$("#contato_enviando h3").html('Mensagem Enviada');
+					setTimeout(some,2000);
+				}
+				
+				});
+		}
+		return false;
+		});
 	/* ------------ CONTATO  AJAX ---------------------*/
 	$("#contato_enviando").on('hidden',function(){
 			$("#contato_enviando p").html('<center><img src="images/loading2.gif" alt=""></center>');
@@ -76,7 +107,8 @@ $(document).ready(function(){
 				});
 		}
 		return false;
-		});
+	});
+	
 	
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});

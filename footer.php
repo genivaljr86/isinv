@@ -19,7 +19,7 @@
         	<div id="texto">
 	            Copyright © <?php $data=date("Y"); echo $data; ?> IS Investimentos <br>
 				Todos os direitos reservados. <br>
-				Av. Mundurucus, 3100, Sala 1301/02 Ed. Metropolitan Tower <br>
+				Rua dos Mundurucus, 3100, Sala 1301/02 Ed. Metropolitan Tower <br>
 				Belém • Pará • Brasil <br>            
             </div>
             <div id="redes">

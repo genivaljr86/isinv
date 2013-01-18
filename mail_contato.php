@@ -10,9 +10,8 @@
 include("core.php");
 
       $nome =$_POST['nome'];
-	  $cidade=$_POST['cidade'];
+	    $curso=$_POST['curso'];
       $email=$_POST['email'];
-	  $mens=$_POST['mens'];
 
       if(empty($email))
       {
@@ -34,14 +33,13 @@ include("core.php");
        $mail->Password = 'designer2802';
        $mail->SetFrom('noreply.talentodesign@gmail.com', 'Contato via Site');
        $mail->AddAddress($core_email, 'Contato'.$core_nome);
-       $mail->Subject = 'Mensagem Via Contato do Site';
+       $mail->Subject = 'Inscrição em Curso Via Site';
 
        $body = "
 <meta charset='UTF-8'>
+           <strong>Curso    : </strong>{$curso} <br />
            <strong>Nome      : </strong>{$nome} <br />
-           <strong>E-mail    : </strong>{$email} <br />
-		   <strong>Cidade    : </strong>{$cidade} <br />
-           <strong>Mensagem  : </strong>{$mens}";
+           <strong>E-mail    : </strong>{$email} <br />";
 
 
        $mail->MsgHTML($body);
