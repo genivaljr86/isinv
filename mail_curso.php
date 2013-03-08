@@ -32,7 +32,7 @@ include("core.php");
        $mail->Username = 'noreplay.talentodesign@gmail.com';
        $mail->Password = 'designer2802';
        $mail->SetFrom('noreply.talentodesign@gmail.com', 'Contato via Site');
-       $mail->AddAddress("genivaljunior86@gmail.com", 'Contato'.$core_nome);
+       $mail->AddAddress("contato@isinvestimentos.com.br", 'Contato'.$core_nome);
        $mail->Subject = 'Cadastro em Curso Via Site';
 
        $body = "
